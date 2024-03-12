@@ -6,7 +6,7 @@ const WeatherDisplay = (props) => {
   return (
     <>
       <p >
-        Temperature:<span style={{ color: temperature > 20 ? 'red' : 'black' }}>{temperature}</span>
+        Temperature:<span style={{ color: temperature > 20 ? 'red' : 'black' }}> {temperature}</span>
       </p>
       <p>Conditions: {conditions}</p>
     </>
