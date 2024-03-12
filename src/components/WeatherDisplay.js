@@ -8,7 +8,7 @@ const WeatherDisplay = (props) => {
       <p >
         Temperature:<span style={{ color: temperature > 20 ? 'red' : 'black' }}>{temperature}</span>
       </p>
-      <p>Conditions:<span style={{ color: temperature > 20 ? 'red' : 'black' }}> {conditions}</span></p>
+      <p>Conditions: {conditions}</p>
     </>
   );
 };
